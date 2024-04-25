@@ -1,10 +1,10 @@
 import './App.css'
-
+import SayHello from './SayHello'
 function App() {
 
   return (
     <div>
-      <button onClick={()=>{console.log("Hello, I am Arif")}}>Click me</button>
+      <button onClick={SayHello}>Click me</button>
     </div>
   )
 }
